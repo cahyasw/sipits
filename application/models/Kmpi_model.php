@@ -27,7 +27,6 @@ class Kmpi_model extends CI_Model
             );
             $this->simpan_dosen($dosen);
         }
-
         $nomor_pembimbing = $data["nomor_pembimbing"];
         if ($nomor_pembimbing == 0) {
             $dosen = array(
